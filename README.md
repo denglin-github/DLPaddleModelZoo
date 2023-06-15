@@ -1,5 +1,5 @@
 # PaddlePaddle Denglin Model Zoo
-### 🤝 登临科技AI + 飞桨
+### 🤝 百度飞桨 x 登临科技AI模型库
 * 兼容性适配：目前登临科技与百度飞桨深度学习框架已完成三级兼容性适配认证，支持当下主流模型应用场景，覆盖了计算机视觉、智能语音、自然语言处理、推荐、图神经网络和强化学习等领域，支持当下主流模型数量100+;
 * 一键启动：通过兼容飞桨推理接口，用户通过指定enable_dlnne()接口一键启动模型，并部署在登临GPU上执行;
 * 性能评估：开启enable_profile()接口即可评估模型性能;
@@ -8,7 +8,7 @@
         
 ### 📦 模型信息
 #### PaddleClas
-| Models	                    | Evaluate Datasets|Input shape	| Acc/Metrics(paddle)|Acc/Metrics(Denglin GPU)|	Latency(ms)(Denglin GPU,BS=1) | Inference Model 
+| Models	                    | Evaluate Datasets|Input shape	| Acc(paddle)|Acc(Denglin GPU)|	Latency(ms)(Denglin GPU,BS=1) | Inference Model 
 |-------------------------------|-------------------|-----------|------------------|------------------------|--------------------------|--------------|
 |AlexNet	                    |ImageNet1k	     |1x3x224x224   |0.567	                |0.56644	            |8.388 | [inference_model](https://pan.baidu.com/s/1zu5Ymwq1iWYgEh9tuBeoog?pwd=8umb) 
 |DenseNet121	                |ImageNet1k	     |1x3x224x224   |0.7566	                |0.75666	            |9.889     | [inference_model](https://pan.baidu.com/s/1zu5Ymwq1iWYgEh9tuBeoog?pwd=8umb) 
@@ -79,7 +79,7 @@ ppyolo_mbv3_large_coco	        |coco	| 1x3x320x320    |0.232	|0.240 	|27.512    
 ppyolo_r50vd_dcn_1x_coco	    |coco	| 1x3x608x608    |0.448	|0.447 	|444.563            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
 ppyolo_tiny_650e_coco	        |coco	| 1x3x320x320    |0.206	|0.207  |	29.661          | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
 ppyoloe_crn_s_300e_coco	        |coco	| 1x3x640x640    |0.430	|0.430	|115.896            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
-ppyolov2_r50vd_dcn_365e_        |coco	| 1x3x640x640    |coco	|0.491	|0.491 	630.109     | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
+ppyolov2_r50vd_dcn_365e_        |coco	| 1x3x640x640    |0.491	|0.491 	630.109     | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
 ttfnet_darknet53_1x_coco	    |coco	| 1x3x512x512    |0.335	|0.336 	|413.021            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)
 yolov3_darknet53_270e_coco	    |coco	| 1x3x608x608    |0.391	|0.391	|279.647            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)
 yolov3_mobilenet_v1_270e_coco	|coco	| 1x3x608x608     |0.294	|0.294	|136.460        | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
@@ -118,7 +118,7 @@ TinyBert	|SST-2	      |      128       | 0.9300	|0.93005	|20.583          |   [i
 #### PaddleRec
 | Models	                    | Evaluate Datasets	| Metrics(paddle)|Metrics(Denglin GPU)|	Latency(ms)(Denglin GPU,BS=1)  | Inference Model 
 |-------------------------------|-------------------|--------------------|------------------------|--------------------------|--------------|
-DSSM	      |  BQ	|0.93(正序率)	|0.92875(正序率)|	2.805       | [inference_model]()                                                                         
+DSSM	      |  BQ	|0.93(正序率)	|0.92875(正序率)|	2.805       | [inference_model](https://pan.baidu.com/s/1eqEFqGzAHu6UEgKv9mGmEQ?pwd=w1sa)                                                                         
 match-pyramid|	Letor07	|0.39(map)	|0.39296map)|	0.895                                                  | [inference_model](https://pan.baidu.com/s/1eqEFqGzAHu6UEgKv9mGmEQ?pwd=w1sa)                
 NCF         	|movielens|	0.58(HR@10) 、0.33(NDCG@10)|	0.58543(HR@10) 、 0.33538(NDCG@10)	|0.699     | [inference_model](https://pan.baidu.com/s/1eqEFqGzAHu6UEgKv9mGmEQ?pwd=w1sa)                    
 DLRM 	       | criteo|	Auc:0.79 +	|0.80120	|6.016                                                 | [inference_model](https://pan.baidu.com/s/1eqEFqGzAHu6UEgKv9mGmEQ?pwd=w1sa)                               
