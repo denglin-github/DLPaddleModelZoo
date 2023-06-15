@@ -1,10 +1,10 @@
 # PaddlePaddle Denglin Model Zoo
 ### 🤝 登临科技AI + 飞桨
-* 兼容性适配：目前登临科技与百度飞桨深度学习框架已完成三级兼容性适配认证，支持当下主流模型应用场景，覆盖了计算机视觉、智能语音、自然语言处理、推荐、图神经网络和强化学习等领域，支持模型数量100+
-* 一键启动：通过兼容飞桨推理接口，用户通过指定enable_dlnne()接口一键启动模型，并部署在登临GPU上执行
-* 性能评估：开启enable_profile()接口即可评估模型性能
-* 支持拓展：用户可自行准备飞桨预训练inference模型，通过登临GPU实现加速推理
-* 其他特性：有关enable_dlnne()接口的是详细使用方法可参考[Paddle-dlNNE](#Paddle-dlNNE)
+* 兼容性适配：目前登临科技与百度飞桨深度学习框架已完成三级兼容性适配认证，支持当下主流模型应用场景，覆盖了计算机视觉、智能语音、自然语言处理、推荐、图神经网络和强化学习等领域，支持模型数量100+;
+* 一键启动：通过兼容飞桨推理接口，用户通过指定enable_dlnne()接口一键启动模型，并部署在登临GPU上执行;
+* 性能评估：开启enable_profile()接口即可评估模型性能;
+* 支持拓展：用户可自行准备飞桨预训练inference模型，通过登临GPU实现加速推理;
+* 其他特性：有关enable_dlnne()接口的是详细使用方法可参考[Paddle-dlNNE](Paddle-dlNNE.md);
         
 ### 📦 模型信息
 #### PaddleClas
@@ -148,7 +148,7 @@ Tacotron2	|CSMSC	|eval/loss	|--	|1.928438	|1.928438	|--
 Speedyspeech|	CSMSC	|eval/loss	|--	|0.879209	|0.879209|	146.011
 
 ### 🎈 推理预测
-#### 以图像分类为例简要介绍是模型使用方法，其他模型场景详细用法请参考飞桨官方模型库：
+#### 以图像分类为例简要介绍模型使用方法，其他模型场景详细用法请参考飞桨官方模型库：
 
 ##### 1.模型准备： 通过链接下载登临飞桨ImageNet1K图像分类模型，例如 MobileNetV3.pdmodel 、 MobileNetV3.pdiparams
 ##### 2.数据准备： 输入图像应符合NCHW Format , Shape 为 [1,3,224,224]
@@ -157,6 +157,6 @@ Speedyspeech|	CSMSC	|eval/loss	|--	|0.879209	|0.879209|	146.011
 python3 samples/predict.py                                  \
     --model_file    ${MODEL_PATH}/MobileNetV3.pdmodel       \
     --params_file   ${MODEL_PATH}/MobileNetV3.pdiparams     \
-    --input_data 
+    --input_data    ${INPUT_DATA}
 ```
 ##### 4.获取最终推理结果，如图像类别、Bouding Box可视化、OCR检测结果等，可参考飞桨模型库相关代码
