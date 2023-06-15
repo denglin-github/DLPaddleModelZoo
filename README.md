@@ -79,7 +79,7 @@ ppyolo_mbv3_large_coco	        |coco	| 1x3x320x320    |0.232	|0.240 	|27.512    
 ppyolo_r50vd_dcn_1x_coco	    |coco	| 1x3x608x608    |0.448	|0.447 	|444.563            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
 ppyolo_tiny_650e_coco	        |coco	| 1x3x320x320    |0.206	|0.207  |	29.661          | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
 ppyoloe_crn_s_300e_coco	        |coco	| 1x3x640x640    |0.430	|0.430	|115.896            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
-ppyolov2_r50vd_dcn_365e_        |coco	| 1x3x640x640    |0.491	|0.491 	630.109     | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
+ppyolov2_r50vd_dcn_365e_        |coco	| 1x3x640x640    |0.491	|0.491  |	630.109     | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
 ttfnet_darknet53_1x_coco	    |coco	| 1x3x512x512    |0.335	|0.336 	|413.021            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)
 yolov3_darknet53_270e_coco	    |coco	| 1x3x608x608    |0.391	|0.391	|279.647            | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)
 yolov3_mobilenet_v1_270e_coco	|coco	| 1x3x608x608     |0.294	|0.294	|136.460        | [inference_model](https://pan.baidu.com/s/1mfKuhIkstFCmg6d5T6uEeA?pwd=w4gb)    
